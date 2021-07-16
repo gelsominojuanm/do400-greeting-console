@@ -21,7 +21,7 @@ pipeline{
             }
         }
 
-       stage('Releases') {
+       stage('Release') {
  	   steps {
         	sh '''
         	    oc project jdrdnx-greetings
